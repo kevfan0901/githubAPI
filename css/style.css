@@ -1,0 +1,87 @@
+.banner {
+  background-image: url(/banana.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 550px;
+  position: relative;
+  overflow: hidden; }
+
+h1 {
+  width: 50%;
+  position: absolute;
+  z-index: 20;
+  top: 40%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder; }
+
+h2 {
+  text-align: center;
+  padding-top: 5%;
+  font-weight: bolder;
+  font-size: 24px;
+  background-color: gold; }
+
+.wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0% 0 5% 0;
+  background-color: gold; }
+  .wrap div {
+    padding: 2%;
+    line-height: 40px; }
+
+#banana {
+  width: 100%; }
+  #banana img {
+    width: 100%;
+    position: absolute; }
+
+#ketchup {
+  height: 500px; }
+  #ketchup img {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transition: 1s; }
+  #ketchup img:hover {
+    top: 30%; }
+
+#pikachu img {
+  position: fixed;
+  top: 60%;
+  right: 5%;
+  z-index: 5; }
+
+#realBanana {
+  position: absolute;
+  bottom: 40%;
+  width: 100%;
+  text-align: center; }
+  #realBanana img {
+    transform: rotate(0);
+    transition: 1s; }
+  #realBanana img:hover {
+    transform: rotate(180deg); }
+
+.blank {
+  width: 100%;
+  height: 600px;
+  background-color: gold;
+  position: relative;
+  z-index: 4; }
+
+#umbrella {
+  width: 100%;
+  text-align: center;
+  padding-top: 20%; }
+  #umbrella img {
+    width: 30%; }
