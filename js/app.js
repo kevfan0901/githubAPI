@@ -28,15 +28,16 @@ var realBanana = document.getElementById('realBanana');
 //change the pikakaka
 window.addEventListener("scroll", function () {
     if (document.documentElement.scrollTop > 720) {
-        pikachu.childNodes[1].src = 'pikachu_smile.png';
+        pikachu.childNodes[1].src = '../image/pikachu_smile.png';
         realBanana.style.position = 'fixed';
         realBanana.style.bottom = '15%';
     } else {
-        pikachu.childNodes[1].src = 'pikachu.png';
+        pikachu.childNodes[1].src = '../image/pikachu.png';
         realBanana.style.position = '';
         realBanana.style.bottom = '';
     }
 }, false)
+
 
 
 window.addEventListener('load', showData );

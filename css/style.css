@@ -1,5 +1,5 @@
 .banner {
-  background-image: url(/banana.jpg);
+  background-image: url(../image/banana.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,8 +46,10 @@ h2 {
     position: absolute; }
 
 #ketchup {
+  width: 50%;
   height: 500px; }
   #ketchup img {
+    width: 15%;
     position: absolute;
     top: 50%;
     left: 10%;
